@@ -18,6 +18,11 @@ public:
     PicRender();
     ~PicRender();
     void loadpic();
+    void redpatch();
+    void greenoutline();
+    void blueline();
+    void yellowdot();
+    void clear();
     void events();
  
 private:
@@ -25,6 +30,7 @@ private:
     SDL_Surface* mScreenSurface;
     SDL_Renderer* mRenderer;
     SDL_Texture* mTexture;
+    SDL_Rect mOutlineRect;
 };
 
 #endif // PICRENDER_H
