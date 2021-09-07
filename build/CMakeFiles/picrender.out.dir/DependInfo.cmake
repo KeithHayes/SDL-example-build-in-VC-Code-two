@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kdog/Code/gcc/renderpic/src/main.cpp" "/home/kdog/Code/gcc/renderpic/build/CMakeFiles/showpic.out.dir/src/main.cpp.o"
-  "/home/kdog/Code/gcc/renderpic/src/picrender.cpp" "/home/kdog/Code/gcc/renderpic/build/CMakeFiles/showpic.out.dir/src/picrender.cpp.o"
+  "/home/kdog/Code/gcc/renderpic/src/main.cpp" "/home/kdog/Code/gcc/renderpic/build/CMakeFiles/picrender.out.dir/src/main.cpp.o"
+  "/home/kdog/Code/gcc/renderpic/src/picrender.cpp" "/home/kdog/Code/gcc/renderpic/build/CMakeFiles/picrender.out.dir/src/picrender.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

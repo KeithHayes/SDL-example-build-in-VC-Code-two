@@ -1,13 +1,9 @@
-#include <SDL2/SDL.h>
-
-#include <stdio.h>
-#include "picwindow.h"
+#include "picrender.h"
 
 int main( int argc, char* args[] )
 {
-	Picwindow mywin;
-	mywin.loadpics();
-	mywin.showpic();
+	PicRender mywin;
+	mywin.loadpic();
 	mywin.events();
 	return 0;
 }

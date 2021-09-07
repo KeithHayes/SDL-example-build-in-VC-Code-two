@@ -49,5 +49,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/showpic.out.dir/DependInfo.cmake"
+  "CMakeFiles/picrender.out.dir/DependInfo.cmake"
   )

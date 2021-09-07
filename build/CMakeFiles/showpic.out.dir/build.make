@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kdog/Code/gcc/showpic
+CMAKE_SOURCE_DIR = /home/kdog/Code/gcc/renderpic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kdog/Code/gcc/showpic/build
+CMAKE_BINARY_DIR = /home/kdog/Code/gcc/renderpic/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/showpic.out.dir/depend.make
@@ -59,45 +59,45 @@ include CMakeFiles/showpic.out.dir/flags.make
 
 CMakeFiles/showpic.out.dir/src/main.cpp.o: CMakeFiles/showpic.out.dir/flags.make
 CMakeFiles/showpic.out.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kdog/Code/gcc/showpic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/showpic.out.dir/src/main.cpp.o"
-	/usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/showpic.out.dir/src/main.cpp.o -c /home/kdog/Code/gcc/showpic/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kdog/Code/gcc/renderpic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/showpic.out.dir/src/main.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/showpic.out.dir/src/main.cpp.o -c /home/kdog/Code/gcc/renderpic/src/main.cpp
 
 CMakeFiles/showpic.out.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/showpic.out.dir/src/main.cpp.i"
-	/usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdog/Code/gcc/showpic/src/main.cpp > CMakeFiles/showpic.out.dir/src/main.cpp.i
+	/usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdog/Code/gcc/renderpic/src/main.cpp > CMakeFiles/showpic.out.dir/src/main.cpp.i
 
 CMakeFiles/showpic.out.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/showpic.out.dir/src/main.cpp.s"
-	/usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdog/Code/gcc/showpic/src/main.cpp -o CMakeFiles/showpic.out.dir/src/main.cpp.s
+	/usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdog/Code/gcc/renderpic/src/main.cpp -o CMakeFiles/showpic.out.dir/src/main.cpp.s
 
-CMakeFiles/showpic.out.dir/src/picwindow.cpp.o: CMakeFiles/showpic.out.dir/flags.make
-CMakeFiles/showpic.out.dir/src/picwindow.cpp.o: ../src/picwindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kdog/Code/gcc/showpic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/showpic.out.dir/src/picwindow.cpp.o"
-	/usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/showpic.out.dir/src/picwindow.cpp.o -c /home/kdog/Code/gcc/showpic/src/picwindow.cpp
+CMakeFiles/showpic.out.dir/src/picrender.cpp.o: CMakeFiles/showpic.out.dir/flags.make
+CMakeFiles/showpic.out.dir/src/picrender.cpp.o: ../src/picrender.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kdog/Code/gcc/renderpic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/showpic.out.dir/src/picrender.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/showpic.out.dir/src/picrender.cpp.o -c /home/kdog/Code/gcc/renderpic/src/picrender.cpp
 
-CMakeFiles/showpic.out.dir/src/picwindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/showpic.out.dir/src/picwindow.cpp.i"
-	/usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdog/Code/gcc/showpic/src/picwindow.cpp > CMakeFiles/showpic.out.dir/src/picwindow.cpp.i
+CMakeFiles/showpic.out.dir/src/picrender.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/showpic.out.dir/src/picrender.cpp.i"
+	/usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdog/Code/gcc/renderpic/src/picrender.cpp > CMakeFiles/showpic.out.dir/src/picrender.cpp.i
 
-CMakeFiles/showpic.out.dir/src/picwindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/showpic.out.dir/src/picwindow.cpp.s"
-	/usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdog/Code/gcc/showpic/src/picwindow.cpp -o CMakeFiles/showpic.out.dir/src/picwindow.cpp.s
+CMakeFiles/showpic.out.dir/src/picrender.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/showpic.out.dir/src/picrender.cpp.s"
+	/usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdog/Code/gcc/renderpic/src/picrender.cpp -o CMakeFiles/showpic.out.dir/src/picrender.cpp.s
 
 # Object files for target showpic.out
 showpic_out_OBJECTS = \
 "CMakeFiles/showpic.out.dir/src/main.cpp.o" \
-"CMakeFiles/showpic.out.dir/src/picwindow.cpp.o"
+"CMakeFiles/showpic.out.dir/src/picrender.cpp.o"
 
 # External object files for target showpic.out
 showpic_out_EXTERNAL_OBJECTS =
 
 showpic.out: CMakeFiles/showpic.out.dir/src/main.cpp.o
-showpic.out: CMakeFiles/showpic.out.dir/src/picwindow.cpp.o
+showpic.out: CMakeFiles/showpic.out.dir/src/picrender.cpp.o
 showpic.out: CMakeFiles/showpic.out.dir/build.make
 showpic.out: /usr/lib/x86_64-linux-gnu/libSDL2_image.so
 showpic.out: /usr/lib/x86_64-linux-gnu/libSDL2.so
 showpic.out: CMakeFiles/showpic.out.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kdog/Code/gcc/showpic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable showpic.out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kdog/Code/gcc/renderpic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable showpic.out"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/showpic.out.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -110,6 +110,6 @@ CMakeFiles/showpic.out.dir/clean:
 .PHONY : CMakeFiles/showpic.out.dir/clean
 
 CMakeFiles/showpic.out.dir/depend:
-	cd /home/kdog/Code/gcc/showpic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdog/Code/gcc/showpic /home/kdog/Code/gcc/showpic /home/kdog/Code/gcc/showpic/build /home/kdog/Code/gcc/showpic/build /home/kdog/Code/gcc/showpic/build/CMakeFiles/showpic.out.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kdog/Code/gcc/renderpic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdog/Code/gcc/renderpic /home/kdog/Code/gcc/renderpic /home/kdog/Code/gcc/renderpic/build /home/kdog/Code/gcc/renderpic/build /home/kdog/Code/gcc/renderpic/build/CMakeFiles/showpic.out.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/showpic.out.dir/depend
 

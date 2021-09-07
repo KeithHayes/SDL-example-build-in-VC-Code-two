@@ -1,0 +1,1 @@
+/usr/bin/x86_64-linux-gnu-g++-9   -std=c++0x -g   CMakeFiles/picrender.out.dir/src/main.cpp.o CMakeFiles/picrender.out.dir/src/picrender.cpp.o  -o picrender.out  /usr/lib/x86_64-linux-gnu/libSDL2_image.so /usr/lib/x86_64-linux-gnu/libSDL2.so 

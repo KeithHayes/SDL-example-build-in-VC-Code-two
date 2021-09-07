@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/showpic.out.dir/src/main.cpp.o"
-  "CMakeFiles/showpic.out.dir/src/picwindow.cpp.o"
+  "CMakeFiles/showpic.out.dir/src/picrender.cpp.o"
   "showpic.out"
   "showpic.out.pdb"
 )

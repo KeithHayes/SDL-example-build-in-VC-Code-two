@@ -44,16 +44,16 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kdog/Code/gcc/showpic
+CMAKE_SOURCE_DIR = /home/kdog/Code/gcc/renderpic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kdog/Code/gcc/showpic/build
+CMAKE_BINARY_DIR = /home/kdog/Code/gcc/renderpic/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/showpic.out.dir/all
+all: CMakeFiles/picrender.out.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/showpic.out.dir/clean
+clean: CMakeFiles/picrender.out.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/showpic.out.dir
+# Target rules for target CMakeFiles/picrender.out.dir
 
 # All Build rule for target.
-CMakeFiles/showpic.out.dir/all:
-	$(MAKE) -f CMakeFiles/showpic.out.dir/build.make CMakeFiles/showpic.out.dir/depend
-	$(MAKE) -f CMakeFiles/showpic.out.dir/build.make CMakeFiles/showpic.out.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kdog/Code/gcc/showpic/build/CMakeFiles --progress-num=1,2,3 "Built target showpic.out"
-.PHONY : CMakeFiles/showpic.out.dir/all
+CMakeFiles/picrender.out.dir/all:
+	$(MAKE) -f CMakeFiles/picrender.out.dir/build.make CMakeFiles/picrender.out.dir/depend
+	$(MAKE) -f CMakeFiles/picrender.out.dir/build.make CMakeFiles/picrender.out.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kdog/Code/gcc/renderpic/build/CMakeFiles --progress-num=1,2,3 "Built target picrender.out"
+.PHONY : CMakeFiles/picrender.out.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/showpic.out.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kdog/Code/gcc/showpic/build/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/showpic.out.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kdog/Code/gcc/showpic/build/CMakeFiles 0
-.PHONY : CMakeFiles/showpic.out.dir/rule
+CMakeFiles/picrender.out.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kdog/Code/gcc/renderpic/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/picrender.out.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kdog/Code/gcc/renderpic/build/CMakeFiles 0
+.PHONY : CMakeFiles/picrender.out.dir/rule
 
 # Convenience name for target.
-showpic.out: CMakeFiles/showpic.out.dir/rule
+picrender.out: CMakeFiles/picrender.out.dir/rule
 
-.PHONY : showpic.out
+.PHONY : picrender.out
 
 # clean rule for target.
-CMakeFiles/showpic.out.dir/clean:
-	$(MAKE) -f CMakeFiles/showpic.out.dir/build.make CMakeFiles/showpic.out.dir/clean
-.PHONY : CMakeFiles/showpic.out.dir/clean
+CMakeFiles/picrender.out.dir/clean:
+	$(MAKE) -f CMakeFiles/picrender.out.dir/build.make CMakeFiles/picrender.out.dir/clean
+.PHONY : CMakeFiles/picrender.out.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

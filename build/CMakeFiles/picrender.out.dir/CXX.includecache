@@ -16,6 +16,10 @@ stdio.h
 string
 -
 
+/home/kdog/Code/gcc/renderpic/src/main.cpp
+picrender.h
+/home/kdog/Code/gcc/renderpic/src/picrender.h
+
 /home/kdog/Code/gcc/renderpic/src/picrender.cpp
 picrender.h
 /home/kdog/Code/gcc/renderpic/src/picrender.h
