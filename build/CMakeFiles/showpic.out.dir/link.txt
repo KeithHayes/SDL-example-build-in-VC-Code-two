@@ -1,0 +1,1 @@
+/usr/bin/x86_64-linux-gnu-g++-9   -std=c++0x -g   CMakeFiles/showpic.out.dir/src/main.cpp.o CMakeFiles/showpic.out.dir/src/picwindow.cpp.o  -o showpic.out  /usr/lib/x86_64-linux-gnu/libSDL2_image.so /usr/lib/x86_64-linux-gnu/libSDL2.so 
